@@ -1,0 +1,17 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Agenda",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 7000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "lite-server": "^2.5.4"
+  }
+}

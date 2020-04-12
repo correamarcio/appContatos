@@ -1,0 +1,119 @@
+/**
+ * Padding ao redor da página
+ * Estilo de fonte
+ * */
+body {
+  padding: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**
+ * Tabela ocupar 100% de largura
+ * */
+table {
+  width: 100%;
+  text-align: center;
+}
+
+/** 
+ * Efeito de cores a tabela
+*/
+tr:nth-child(even) {
+  background-color: #e7e3e3;
+}
+
+/**
+ * Margin para linha hr
+ * */
+hr {
+  margin: 1.5em 0;
+}
+
+/**
+ * 
+ * Deixar borda vermelha nos campos de erro
+/* classe de erro para os campos */
+.pure-form input.invalid,
+.pure-form input.invalid:focus {
+  border-color: #e60000;
+  background: #ffe6e6;
+}
+
+/**
+ * Tamanho da fonte, fonte em negrito e alinhamento central
+ * */
+label,
+tr th {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/**
+ * Cores e tamanhos dos botões do menu
+ * */
+.button-warning {
+  background: rgb(223, 117, 20);
+  /* this is an orange */
+}
+
+.button-success {
+  background: rgb(28, 184, 65);
+}
+
+.button-error {
+  background: rgb(202, 60, 60);
+}
+
+.button-warning {
+  background: rgb(223, 117, 20);
+}
+
+.button-secondary {
+  background: rgb(66, 184, 221);
+}
+
+/**
+ * Sombra e arredondamento dos botões do menu
+ * */
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+  color: white;
+  border-radius: 8px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-edit,
+#id {
+  display: none;
+}
+
+.button-xlarge {
+  font-size: 125%;
+}
+
+/**
+ * Icones do menu
+ * */
+i {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/**
+ * Esconder ordenadores da tabela de contatos
+ * */
+.fa-chevron-up {
+  display: none;
+}
+
+
+/** 
+ * Espaçamento interno dos icones dentro dos botões
+*/
+button i,
+a i {
+  padding-left: 5%;
+}

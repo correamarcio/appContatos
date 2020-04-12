@@ -1,0 +1,81 @@
+node nome do arquivo iniciar node
+npm install
+npm init = iniciar npm
+
+
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Agenda",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
+
+npm rum front
+
+
+CRUD:                 PROTOCOLO HTTP
+
+Creat  => Criar     -> http://localhost:7000/comments POST = CRIAR
+Read   => Ler/ pegar-> http://localhost:7000/comments GER  = BUSCAR
+Udate  => Atualizar -> http://localhost:7000/comments PATCH = PUT/PATH ATUALIZAR
+// PUT ATUALIZA O OBJETO INTEIRO, PATH APENAS A AINFORMAÇÃO SELECIONADA
+Delete => Apagar    -> http://localhost:7000/comments DELETE
+
+
+
+JVASCRIPT - DOM
+
+DOCUMENT OBJECT MODEL 
+
+window.document 
+ou
+document
+
+// propriedades
+document.head
+document.body
+document.links
+document.images
+document.forms
+
+
+// metodos
+document.getElemenyById()
+
+
+
+
+saber oque esta chegando na função
+        console.log(arguments);
+        e.preventDefault()
+
+
+defer; --------------
+Provoca um atraso para que a importalção dos aquivos seja imporotada de forma normal.
+
+async;---------------
+Não gera dependencia, é gerado de forma assincrona. Chama os arquivos ao mesmo tempo.
+
+PADRÃO ASI JavaScript ---------------
+
+Null ointer eseption ----------------
+
+SEMPRE QUE O NOME DA FUNÇÃO TIVER A PRIMEIRA LETRA MAIUSCULA DEV-SE TER UM NEW NA FRENTE ---------------
+
+camel case ---------------
+
+===========================================================
+como usar função anonimas
+
+1. Atribuindo a uma variavel.
+
+USAR A FUNÇÃO ARGUMENTS
